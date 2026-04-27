@@ -1585,17 +1585,7 @@ footer {
 
 <script>
 // ── API KEY — sessionStorage, one-time prompt ──
-let API_KEY = sessionStorage.getItem('fda_api_key') || '';
-
-if (!API_KEY) {
-  const entered = prompt('Enter your Anthropic API key to activate the demo:\n(starts with sk-ant-)');
-  if (entered && entered.startsWith('sk-')) {
-    API_KEY = entered.trim();
-    sessionStorage.setItem('fda_api_key', API_KEY);
-  } else {
-    alert('Valid API key required. Reload to try again.');
-  }
-}
+const API_KEY = "REPLACE_WITH_VON_KEY";
 
 // ── BADGE BAR ──
 const badges = [

@@ -1,0 +1,22 @@
+{
+  "business_name": "Luxe Studio",
+  "business_type": "lash studio",
+  "tone": "warm, professional, luxury",
+  "services": ["Classic Lashes", "Hybrid Lashes", "Volume Lashes", "Lash Lift"],
+  "booking_link": "https://bookme.example.com",
+  "hours": "Tuesday–Saturday, 9am–6pm",
+  "location": "Los Angeles, CA",
+  "reply_from_name": "Luxe Studio Team",
+  "reply_from_email": "hello@luxestudio.com",
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "user": "YOUR_GMAIL",
+    "pass": "YOUR_APP_PASSWORD"
+  },
+  "escalation_keywords": ["allergic", "infection", "medical", "refund", "lawsuit", "angry"],
+  "followup_delay_hours": {
+    "first": 24,
+    "second": 72
+  }
+}
